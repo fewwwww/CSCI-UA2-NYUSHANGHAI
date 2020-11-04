@@ -16,7 +16,7 @@
 
 def title_case(title):
     #WRITE YOUR CODE HERE
-    nocap = 'aantheatbyforinofontoupandasbutornor'
+    nocap = 'aanatbyfnororfoinontoupandasbutother'
     index_0 = 0
     index_1 = 0
     formatted_title = ''
