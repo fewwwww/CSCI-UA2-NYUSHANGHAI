@@ -26,9 +26,9 @@ def check_anagrams(S1, S2):
             S2_alpha += j
     S1_space, S2_space = S1_alpha.lower(), S2_alpha.lower()
     for a in S1_alpha.lower():
-        S2_space = S2_space.replace(a,' ',1)
+        S2_space = S2_space.replace(a,' ')
     for b in S2_alpha.lower():
-        S1_space = S1_space.replace(b,' ',1)
+        S1_space = S1_space.replace(b,' ')
     return S2_space.isspace() and S1_space.isspace()
 
 
