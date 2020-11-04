@@ -12,16 +12,16 @@ def main():
     3) calls clean_users function to clean the list
     4) prints out the cleaned list"""
     #WRITE YOUR PROGRAM HERE
-    Lst = []
+    List = []
     for i in range(5):
-        username = input('username: ')
-        Lst.append(username)
-    print(Lst)
-    Lst = clean_users(Lst)
-    print(Lst)
+        username = input('username:')
+        List.append(username)
+    print(List)
+    List = clean_users(List)
+    print(List)
 
 
-def clean_users(L):
+def clean_users(Lst):
     """• input: 1 parameter L -> type list (of strings) - each element in the list is a username
 • return: a new cleaned list (see the rules below) -> type list (of strings)
 
@@ -33,7 +33,7 @@ Note: your function should not modify the original list!"""
     #WRITE YOUR CODE HERE
     remove_chars = 'cgzCGZ'
     clean_L = []
-    for name in L:
+    for name in Lst:
         clean_L.append(name)
         for char in name:
             if char in remove_chars:
