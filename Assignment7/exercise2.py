@@ -14,7 +14,7 @@ The tested functions are:
     • add_user"""
     #create a list of users (userList)
     userList = [['sunny1', 'pwd1DdeEff'], ['superS', 'pwD2Abcdefgh'], \
-    ['likeA', 'pwd3AAAAAA'], ['qwerty', 'pwd4QWERTY']]
+    ['likeA', 'pwd3AAAAA'], ['qwerty', 'pwd4QWERTY']]
     print('List of users (userList):')
     print(userList)
     
@@ -26,8 +26,8 @@ The tested functions are:
     
     print()
     
-    print('Calling: valid_password(\'azertyuiop\')')
-    r = valid_password('azertyuiop') #also catch the returned value
+    print('Calling: valid_password(\'azertyuip\')')
+    r = valid_password('azertyuip') #also catch the returned value
     print(r) #print the returned value
     
     print()
