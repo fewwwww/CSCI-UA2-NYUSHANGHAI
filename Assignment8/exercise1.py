@@ -16,7 +16,7 @@ def main():
     file2_r = open('file2.txt', 'r')
     file2_data = file2_r.read()
     file2_r.close()
-    file1_w = open('file1.txt', 'w')
+    file1_w = open('file1.txt', 'a')
     file1_w.write(file2_data + file1_data)
     file1_w.close()
     
