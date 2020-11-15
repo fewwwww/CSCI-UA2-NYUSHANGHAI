@@ -21,7 +21,7 @@ def main():
            print('File not found')
         else:
             data = file.read()
-            lst = data.split('\n')
+            lst = data.split()
             lst_corrected = []
             for i in range(len(lst)):
                 try:
