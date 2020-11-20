@@ -24,7 +24,7 @@ def add_attraction(dict):
     dict[name] = province
 
 
-def build_province_attraction_dict(dict):
+def build_provinse_attraction_dict(dict):
     # write your code here for Task 3
     dict_new = {}
     for key, value in dict.items():
@@ -39,7 +39,7 @@ def most_attractions(dict):
     # write your code here for Task 4
     result = set()
     for key, value in dict.items():
-        if len(value) >= 3 and key not in result:
+        if len(value) >= 3:
             result.add(key)
     return result
 
