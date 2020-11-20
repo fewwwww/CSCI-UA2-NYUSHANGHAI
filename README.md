@@ -1,6 +1,5 @@
 # CSCI-UA2-NYUSHANGHAI
 
-Code Written By Suning Yao. Intended To Be Buggy.
+Intended To Be Buggy For Not Being Copied.
 
-
-Past Assignments Solutions For The Course. Please Do Not Copy And Paste. You Will Be Caught If You Try To Cheat.
+Past Assignments Solutions For The Course.
